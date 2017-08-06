@@ -8,6 +8,6 @@ namespace CashierTransaction.Models
 {
     public interface IRegisterModel
     {
-        bool TransactionPayment(List<string> CustomerInfo);
+        bool TransactionPayment(List<string> CustomerCash);
     }
 }

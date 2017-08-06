@@ -10,7 +10,7 @@
 namespace CashierTransaction {
     
     
-    public partial class CustomerInfo {
+    public partial class CustomerCash {
         
         /// <summary>
         /// form1 control.
@@ -31,58 +31,58 @@ namespace CashierTransaction {
         protected global::System.Web.UI.WebControls.TextBox IdTB;
         
         /// <summary>
-        /// FirstNameTB control.
+        /// OnesTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTB;
+        protected global::System.Web.UI.WebControls.TextBox OnesTB;
         
         /// <summary>
-        /// LastNameTB control.
+        /// FivesTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTB;
+        protected global::System.Web.UI.WebControls.TextBox FivesTB;
         
         /// <summary>
-        /// CardNumberTB control.
+        /// TensTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CardNumberTB;
+        protected global::System.Web.UI.WebControls.TextBox TensTB;
         
         /// <summary>
-        /// CardExpireTB control.
+        /// TwentiesTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CardExpireTB;
+        protected global::System.Web.UI.WebControls.TextBox TwentiesTB;
         
         /// <summary>
-        /// CardTypeDDL control.
+        /// FiftiesTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CardTypeDDL;
+        protected global::System.Web.UI.WebControls.TextBox FiftiesTB;
         
         /// <summary>
-        /// CardCVNTB control.
+        /// HundredsTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CardCVNTB;
+        protected global::System.Web.UI.WebControls.TextBox HundredsTB;
         
         /// <summary>
         /// SubmitTransactionPayment control.

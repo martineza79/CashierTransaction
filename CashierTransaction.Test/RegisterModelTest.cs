@@ -13,16 +13,16 @@ namespace CashierTransaction.Test
 {
     public class RegisterPresenterTest
     {
-        ICustomerInfoView View;
+        ICustomerCashView View;
 
         [Fact]
         public void TransactionPayment_RegisterModelVariableBindsWithMyCustomerInfo_ReturnsEqual()
         {
             // Act
-            View = MockRepository.GenerateMock<ICustomerInfoView>();
+            View = MockRepository.GenerateMock<ICustomerCashView>();
 
             //Arrange
-            View.Expect(v => v.FirstName).IgnoreArguments(); // Expect is a Rhino Mock method
+            View.Expect(v => v.Ones).IgnoreArguments(); // Expect is a Rhino Mock method
             new CashierPresenter(View);
 
             //Assert
@@ -33,12 +33,12 @@ namespace CashierTransaction.Test
         [Fact]
         private void TransactionPayment_RegisterModelVariableBindsWithMyCustomerInfo_ReturnsFirstName()
         {
-            View = MockRepository.GenerateMock<ICustomerInfoView>();
-            View.Expect(v => v.FirstName == View.FirstName);
+            View = MockRepository.GenerateMock<ICustomerCashView>();
+            View.Expect(v => v.Ones == View.Ones);
             CashierPresenter presenter = new CashierPresenter(View);
             presenter.TransactionPayment();
 
-            Assert.Equal("John", View.FirstName);
+            Assert.Equal("5", View.Ones);
         }
     }
 }

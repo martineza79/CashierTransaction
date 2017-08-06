@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace CashierTransaction
 {
-    public partial class CustomerInfo : Page, ICustomerInfoView
+    public partial class CustomerCash : Page, ICustomerCashView
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -37,40 +37,40 @@ namespace CashierTransaction
             set { IdTB.Text = value; }
         }
 
-        public string FirstName
+        public string Ones
         {
-            get { return FirstNameTB.Text; }
-            set { FirstNameTB.Text = value; }
+            get { return OnesTB.Text; }
+            set { OnesTB.Text = value; }
         }
 
-        public string LastName
+        public string Fives
         {
-            get { return LastNameTB.Text; }
-            set { LastNameTB.Text = value; }
+            get { return FivesTB.Text; }
+            set { FivesTB.Text = value; }
         }
 
-        public string CardNumber
+        public string Tens
         {
-            get { return CardNumberTB.Text; }
-            set { CardNumberTB.Text = value; }
+            get { return TensTB.Text; }
+            set { TensTB.Text = value; }
         }
 
-        public string CardExpire
+        public string Twenties
         {
-            get { return CardExpireTB.Text; }
-            set { CardExpireTB.Text = value; }
+            get { return TwentiesTB.Text; }
+            set { TwentiesTB.Text = value; }
         }
 
-        public string CardCVN
+        public string Fifties
         {
-            get { return CardCVNTB.Text; }
-            set { CardCVNTB.Text = value; }
+            get { return FiftiesTB.Text; }
+            set { FiftiesTB.Text = value; }
         }
 
-        public string CardType
+        public string Hundreds
         {
-            get { return CardTypeDDL.Text; }
-            set { CardTypeDDL.Text = value; }
+            get { return HundredsTB.Text; }
+            set { HundredsTB.Text = value; }
         }
     }
 }

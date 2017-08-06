@@ -106,18 +106,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CustomerInfo.aspx" />
+    <Content Include="CustomerCash.aspx" />
     <Content Include="Global.asax" />
     <Content Include="TransactionComplete.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerInfo.aspx.cs">
-      <DependentUpon>CustomerInfo.aspx</DependentUpon>
+    <Compile Include="CustomerCash.aspx.cs">
+      <DependentUpon>CustomerCash.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustomerInfo.aspx.designer.cs">
-      <DependentUpon>CustomerInfo.aspx</DependentUpon>
+    <Compile Include="CustomerCash.aspx.designer.cs">
+      <DependentUpon>CustomerCash.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -133,7 +133,7 @@
     <Compile Include="TransactionComplete.aspx.designer.cs">
       <DependentUpon>TransactionComplete.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\ICustomerInfoView.cs" />
+    <Compile Include="View\ICustomerCashView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
